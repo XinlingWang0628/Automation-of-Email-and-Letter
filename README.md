@@ -20,6 +20,6 @@ Automation-of-Email-and-Letter is a Java application that parses command line ar
 - Text editor or Integrated Development Environment (IDE) for Java development
 
 Example of command(order doesn't matter)
---email --email-template email-template.txt --output-dir emails --csv-file customer.csv
- --csv-file customer.csv --email-template email-template.txt --output-dir emails --email
- --output-dir emails --email --csv-file customer.csv --email-template email-template.txt
+1. --email --email-template email-template.txt --output-dir emails --csv-file customer.csv
+2.  --csv-file customer.csv --email-template email-template.txt --output-dir emails --email
+3.  --output-dir emails --email --csv-file customer.csv --email-template email-template.txt
