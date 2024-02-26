@@ -3,7 +3,7 @@
 
 ## Description
 
-Automation-of-notification is a Java application that parses command line arguments to generate either letters or emails using provided templates and customer data from a CSV file.
+Automation-of-Email-and-Letter is a Java application that parses command line arguments to generate either letters or emails using provided templates and customer data from a CSV file.
 
 ## Features
 
@@ -18,3 +18,8 @@ Automation-of-notification is a Java application that parses command line argume
 
 - Java Development Kit (JDK) installed on your system
 - Text editor or Integrated Development Environment (IDE) for Java development
+
+###Example of command(order doesn't matter)
+--email --email-template email-template.txt --output-dir emails --csv-file customer.csv
+ --csv-file customer.csv --email-template email-template.txt --output-dir emails --email
+ --output-dir emails --email --csv-file customer.csv --email-template email-template.txt
